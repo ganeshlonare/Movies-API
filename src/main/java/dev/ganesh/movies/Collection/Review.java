@@ -1,4 +1,4 @@
-package dev.ganesh.movies;
+package dev.ganesh.movies.Collection;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,9 +18,9 @@ public class Review {
     private LocalDateTime created;
     private LocalDateTime updated;
 
-    public Review(String body, LocalDateTime created, LocalDateTime updated) {
+    public Review(String body , LocalDateTime created , LocalDateTime updated) {
         this.body = body;
-        this.created = created;
-        this.updated = updated;
+        this.created=created;
+        this.updated=updated;
     }
 }

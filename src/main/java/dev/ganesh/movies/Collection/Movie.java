@@ -1,4 +1,4 @@
-package dev.ganesh.movies;
+package dev.ganesh.movies.Collection;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

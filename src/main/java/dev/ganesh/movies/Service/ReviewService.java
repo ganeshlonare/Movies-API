@@ -1,5 +1,8 @@
-package dev.ganesh.movies;
+package dev.ganesh.movies.Service;
 
+import dev.ganesh.movies.Collection.Movie;
+import dev.ganesh.movies.Collection.Review;
+import dev.ganesh.movies.Repositary.ReviewRepositary;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
